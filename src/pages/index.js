@@ -80,16 +80,16 @@ const IndexPage = () => {
             </header>
             <p>
               I am a software engineer with hands-on experience in JavaScript
-              related stacks and .NET development. Exposed to microservices
-              system, I am comfortable in building/maintaining scalable
-              solutions for complex business problem with proven track of
-              record.
+              related stacks and .NET development. Having worked extensively
+              with microservices system, I am comfortable in
+              building/maintaining scalable solutions for complex business
+              problem with proven track of record.
             </p>
             <p>
               On the frontend side I have been using SCSS/Styled components,
               React/Angular, and TypeScript. In addition, I am also familiar
               with NestJS, C# .NET as server-side frameworks to develop
-              microservices architecture back-end.
+              microservices oriented back-end.
             </p>
             <p>
               I have worked both with Agile and Continuous
