@@ -24,8 +24,8 @@ class Header extends React.Component {
               alignContent: 'space-around'
             }}
           >
-            <span className='icon minor devicon-angularjs-plain colored' />
-            <span className='icon major devicon-react-original colored' />
+            <span className='minor devicon-angular-plain colored' />
+            <span className='major devicon-react-original colored' />
             <h1>
               Hi, I'm <strong>Paavo</strong>
             </h1>

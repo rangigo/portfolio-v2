@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Project = ({
   backgroundColor = 'rgb(108, 174, 221)',
@@ -12,47 +12,47 @@ const Project = ({
   description,
   itemTitle,
   itemTitleColor,
-  gradientBg = false,
+  gradientBg = false
 }) => {
   const backgroundColorStyle = gradientBg
     ? { background: backgroundColor }
-    : { backgroundColor }
+    : { backgroundColor };
   return (
     <div
-      className="project"
-      data-aos="zoom-in"
+      className='project'
+      data-aos='zoom-in'
       style={backgroundColorStyle}
       onClick={() => window.open(link, '_blank')}
     >
-      {img ? <img src={img} alt="project name" width={imgWidth} /> : null}
+      {img ? <img src={img} alt='project name' width={imgWidth} /> : null}
       {projectTitle ? (
-        <div className="project-title">{projectTitle}</div>
+        <div className='project-title'>{projectTitle}</div>
       ) : null}
-      <div className="cover">
-        <div className="item-title" style={{ color: itemTitleColor }}>
+      <div className='cover'>
+        <div className='item-title' style={{ color: itemTitleColor }}>
           {itemTitle}
         </div>
-        <div className="grid-wrapper icon-container">
-          <div className="col-4 icon-box">
-            <i className="fa fa-cog">
-              <div className="icon-text">{tech}</div>
+        <div className='grid-wrapper icon-container'>
+          <div className='col-4 icon-box'>
+            <i className='fa fa-cog'>
+              <div className='icon-text'>{tech}</div>
             </i>
           </div>
-          <div className="col-4 icon-box">
-            <i className="far fa-calendar">
-              <div className="icon-text">{date}</div>
+          <div className='col-4 icon-box'>
+            <i className='far fa-calendar'>
+              <div className='icon-text'>{date}</div>
             </i>
           </div>
-          <div className="col-4 icon-box">
-            <i className="fa fa-clock">
-              <div className="icon-text">{status}</div>
+          <div className='col-4 icon-box'>
+            <i className='fa fa-clock'>
+              <div className='icon-text'>{status}</div>
             </i>
           </div>
         </div>
-        <p className="description">{description}</p>
+        <p className='description'>{description}</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;
