@@ -57,12 +57,11 @@ const IndexPage = () => {
           property='twitter:image'
           content='https://stevenhansel.s3-ap-southeast-1.amazonaws.com/hash2.png'
         />
-        `
         <link
           rel='stylesheet'
-          href='https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css'
+          type='text/css'
+          href='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css'
         />
-        ƒ
       </Helmet>
       <ReactTooltip place='bottom' type='light' effect='float' />
       <section id='one' className='main style1' ref={sectionOneRef}>
