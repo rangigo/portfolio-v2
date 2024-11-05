@@ -11,7 +11,7 @@ export const projects = [
     tech: 'Full-Stack',
     date: 'June 2018',
     status: 'Finished',
-    description: 'A burger order app made with React/Redux & Firebase',
+    description: 'A burger order app made with React/Redux & Firebase'
   },
   {
     flex: 0.333,
@@ -25,7 +25,7 @@ export const projects = [
     tech: 'Front-End',
     date: 'October 2018',
     status: 'Playing with it...',
-    description: 'Track the current trending animes of the season!',
+    description: 'Track the current trending animes of the season!'
   },
   {
     flex: 0.333,
@@ -40,7 +40,7 @@ export const projects = [
     tech: 'Front-End',
     date: 'November 2018',
     status: 'Finished',
-    description: 'My portfolio website, you are browsing it right now!',
+    description: 'My portfolio website, you are browsing it right now!'
   },
   {
     flex: 0.333,
@@ -52,12 +52,13 @@ export const projects = [
     tech: 'Hackaround',
     date: 'October 2020',
     status: 'On-going...',
-    description: 'A custom Angular component to render JSON based content',
+    description: 'A custom Angular component to render JSON based content'
   },
   {
     flex: 0.333,
     gradientBg: true,
-    backgroundColor: 'linear-gradient(90deg, rgba(42,141,204,1) 0%, rgba(9,29,121,1) 0%, rgba(0,212,255,1) 100%)',
+    backgroundColor:
+      'linear-gradient(90deg, rgba(42,141,204,1) 0%, rgba(9,29,121,1) 0%, rgba(0,212,255,1) 100%)',
     itemTitleColor: '#cdd4f0',
     img: 'https://nextjs-dashboard-ashy-ten-41.vercel.app/_next/image?url=%2Fhero-desktop.png&w=1080&q=75',
     imgWidth: '50%',
@@ -68,7 +69,7 @@ export const projects = [
     date: 'July 2024',
     status: 'Finished',
     description:
-      'A full-stack Next.js app to manage invoices for customers, integrated with native user login system and OAuth login.',
+      'A full-stack Next.js app to manage invoices for customers, integrated with native user login system and OAuth login.'
   },
   {
     flex: 0.333,
@@ -83,7 +84,7 @@ export const projects = [
     date: 'March 2017',
     status: 'Finished',
     description:
-      'A 2D Japan-style role-playing puzzle game powered by Unity and made for Windows PC.',
+      'A 2D Japan-style role-playing puzzle game powered by Unity and made for Windows PC.'
   },
   {
     flex: 0.333,
@@ -99,7 +100,7 @@ export const projects = [
     date: 'August 2018',
     status: 'On-going',
     description:
-      'React Native Application: Personal dictionary to memorize your daily phrases.',
+      'React Native Application: Personal dictionary to memorize your daily phrases.'
   },
   {
     flex: 0.333,
@@ -113,7 +114,7 @@ export const projects = [
     tech: 'C',
     date: 'January 2017',
     status: 'Finished',
-    description: 'Controlling and optimizing algorithm for Polulu Zumo Robot.',
+    description: 'Controlling and optimizing algorithm for Polulu Zumo Robot.'
   },
   {
     flex: 0.333,
@@ -128,9 +129,9 @@ export const projects = [
     date: '2018',
     status: 'Finished',
     description:
-      'Pet project to study behavior of multistep form validation utilizing React/Redux.',
-  },
-]
+      'Pet project to study behavior of multistep form validation utilizing React/Redux.'
+  }
+];
 
 export const experiences = [
   {
@@ -138,17 +139,15 @@ export const experiences = [
     timeStamp: '05.2021 - 04.2024',
     description: `<p>• Initially a part of the team building preview page for creative ads, later on got
     merged into the team responsible for content sheet and asset UI management.</p>
-    <p>• Frequent collaborating with other engineers through pair-coding to develop
-    new features in a smartly way
-    </p>
     <p>• Develop and maintain existing microservices architecture handling content
     sheet back-end using NestJS framework.
     </p>
-    <p>• Develop several UI repositories with React and redux-toolkit. Ensure
-    comprehensive testing with unit/integration test using react-testing-library
-    and E2E test using Cypress.</p>`,
+    <p>• Develop a sheet-like data grid tailored specifically for Smartly.io system with React and redux-toolkit. Ensure comprehensive testing with unit/integration test using react-testing-library and E2E test using Cypress.</p>
+    <p>
+      • Frequent collaborating and pair-coding with other engineers to improve team's velocity as part of the initiative driven by the team's engineering manager. </p>
+    `,
     timeLinePosition: 'left',
-    marginTop: -100,
+    marginTop: -100
   },
   {
     jobTitle: 'Software Engineer @ Zervant',
@@ -165,7 +164,7 @@ export const experiences = [
     <p>• Migrate existing UI Enzyme tests to react-testing-library with best testing
     practices</p>`,
     timeLinePosition: 'right',
-    marginTop: -100,
+    marginTop: -100
   },
   {
     jobTitle: 'Software Engineer @ Nord Pool',
@@ -183,7 +182,7 @@ export const experiences = [
   in Node.js, Jasmine, Protractor.
   </p>`,
     timeLinePosition: 'left',
-    marginTop: -100,
+    marginTop: -100
   },
   {
     jobTitle: 'Web Developer @ Integrify',
@@ -199,6 +198,6 @@ export const experiences = [
                     </p>
       `,
     timeLinePosition: 'right',
-    marginTop: -30,
-  },
-]
+    marginTop: -30
+  }
+];

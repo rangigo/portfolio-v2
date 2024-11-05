@@ -64,7 +64,6 @@ const IndexPage = () => {
         />
         {/* <link rel='stylesheet' href='devicon.min.css' /> */}
       </Helmet>
-      <ReactTooltip place='bottom' type='light' effect='float' />
       <section id='one' className='main style1' ref={sectionOneRef}>
         <div className='grid-wrapper'>
           <div className='col-6' data-aos='fade-right'>
@@ -111,22 +110,22 @@ const IndexPage = () => {
           <div className='col-6'>
             <ul className='major-icons'>
               <li data-aos='zoom-out'>
-                <span className='major devicon-react-original colored' />
+                <span className='icon major devicon-react-original colored' />
               </li>
               <li data-aos='zoom-out'>
-                <span className='major devicon-angular-plain colored' />
+                <span className='icon major devicon-angular-plain colored angular-icon' />
               </li>
               <li data-aos='zoom-out'>
-                <span className='major devicon-nodejs-plain colored' />
+                <span className='icon major devicon-nodejs-plain colored' />
               </li>
               <li>
-                <span className='major devicon-sass-original colored' />
+                <span className='icon major devicon-sass-original colored' />
               </li>
               <li data-aos='zoom-out'>
-                <span className='major devicon-dot-net-plain-wordmark colored' />
+                <span className='icon major devicon-dot-net-plain-wordmark colored' />
               </li>
               <li data-aos='zoom-out'>
-                <span className='major'>
+                <span className='icon major'>
                   <GraphQLLogo />
                 </span>
               </li>
@@ -150,53 +149,54 @@ const IndexPage = () => {
               considerable amount of work in back-end with Node.js and .NET
             </p>
             <div className='skills' data-aos='zoom-out'>
+              <ReactTooltip place='bottom' variant='light' id='react-tooltip' />
               <h4>Front-End</h4>
               <div className='minor-icons'>
                 <span
                   className='icon minor devicon-react-original colored'
-                  data-tooltip-id='React'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='React'
                 />
                 <span
                   className='icon minor devicon-angular-plain colored'
-                  data-tooltip-id='Angular'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='Angular'
                 />
                 <span
                   className='icon minor devicon-sass-original colored'
-                  data-tooltip-id='my-tooltip'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='SASS'
                 />
                 <span
                   className='icon minor devicon-jquery-plain-wordmark colored'
-                  data-tooltip-id='JQuery'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='JQuery'
                 />
                 <span
                   className='icon minor devicon-bootstrap-plain colored'
-                  data-tooltip-id='Bootstrap'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='Bootstrap'
                 />
                 <span
                   className='icon minor devicon-html5-plain colored'
-                  data-tooltip-id='HTML5'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='HTML5'
                 />
                 <span
                   className='icon minor devicon-css3-plain colored'
-                  data-tooltip-id='CSS3'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='CSS3'
                 />
                 <span
                   className='icon minor'
-                  data-tooltip-id='Jest'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='Jest'
                 >
                   <JestLogo />
                 </span>
                 <span
                   className='icon minor'
-                  data-tooltip-id='Apollo/GraphQL'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='Apollo/GraphQL'
                 >
                   <ApolloLogo />
@@ -206,37 +206,37 @@ const IndexPage = () => {
               <div className='minor-icons'>
                 <span
                   className='icon minor devicon-nodejs-plain colored'
-                  data-tooltip-id='NodeJS'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='NodeJS'
                 />
                 <span
                   className='icon minor devicon-express-original-wordmark'
-                  data-tooltip-id='Express'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='Express'
                 />
                 <span
                   className='icon minor devicon-dot-net-plain-wordmark colored'
-                  data-tooltip-id='NET'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='.NET'
                 />
                 <span
                   className='icon minor devicon-java-plain colored'
-                  data-tooltip-id='Java'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='Java'
                 />
                 <span
                   className='icon minor devicon-tomcat-line-wordmark colored'
-                  data-tooltip-id='Tomcat'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='Tomcat'
                 />
                 <span
                   className='icon minor devicon-mysql-plain colored'
-                  data-tooltip-id='MySQL'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='MySQL'
                 />
                 <span
                   className='icon minor devicon-mongodb-plain colored'
-                  data-tooltip-id='MongoDB'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='MongoDB'
                 />
               </div>
@@ -244,54 +244,54 @@ const IndexPage = () => {
               <div className='minor-icons'>
                 <span
                   className='icon minor devicon-typescript-plain colored'
-                  data-tooltip-id='TypeScript'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='TypeScript'
                 />
                 <span
                   className='icon minor devicon-docker-plain colored'
-                  data-tooltip-id='Docker'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='Docker'
                 />
                 <span
                   className='icon minor devicon-confluence-plain colored'
-                  data-tooltip-id='Confluence'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='Confluence'
                 />
                 <span
                   className='icon minor devicon-jasmine-plain colored'
-                  data-tooltip-id='Jasmine'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='Jasmine'
                 />
                 <span
                   className='icon minor devicon-c-plain colored'
-                  data-tooltip-id='c'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='C'
                 />
                 <span
                   className='icon minor devicon-csharp-plain colored'
-                  data-tooltip-id='c#'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='C#'
                 />
                 <span
                   className='icon minor'
-                  data-tooltip-id='unity'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='Unity'
                 >
                   <UnityLogo />
                 </span>
                 <span
                   className='icon minor devicon-git-plain colored'
-                  data-tooltip-id='Git'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='Git'
                 />
                 <span
                   className='icon minor devicon-webpack-plain colored'
-                  data-tooltip-id='Webpack'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='Webpack'
                 />
                 <span
                   className='icon minor devicon-heroku-plain colored'
-                  data-tooltip-id='Heroku'
+                  data-tooltip-id='react-tooltip'
                   data-tooltip-content='Heroku'
                 />
               </div>

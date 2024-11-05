@@ -2269,6 +2269,14 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+
+		svg {
+			width: 4em;
+			height: 100%;
+			transform: rotate(-45deg);
+			display: inline-block;
+			line-height: 1em;
+		}
 	}
 
 		.icon:before {
@@ -2280,8 +2288,6 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
 		}
 
 		.icon > .label {
@@ -2294,10 +2300,6 @@ input, select, textarea {
 
 		.icon.solid:before {
 			font-weight: 900 !important;
-		}
-
-		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
 		}
 
 		.icon.style1:before {
@@ -2346,8 +2348,6 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
-				font-weight: 400;
 			}
 
 			.icon.major:before {
@@ -2355,6 +2355,9 @@ input, select, textarea {
 				line-height: 1em;
 			}
 
+			.devicon-angular-plain.colored, .devicon-angular-plain-wordmark.colored {
+				color: #c4473a !important;
+			}
 /* Image */
 
 	.image {
@@ -2447,6 +2450,7 @@ input, select, textarea {
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 1.5em;
+	position: relative;
 }
 
 .minor-icons {
@@ -3121,7 +3125,7 @@ input, select, textarea {
 			}
 
 			.main.style2 .icon.major {
-				color: #ffffff;
+				/* color: #ffffff; */
 			}
 
 /* Header */
@@ -3467,6 +3471,10 @@ input, select, textarea {
   padding: 0 10px;
   transition: all 0.4s ease;
 
+	p {
+		margin-bottom: 5px;
+	}
+	
   .time-stamp {
     color: grey;
     p {
