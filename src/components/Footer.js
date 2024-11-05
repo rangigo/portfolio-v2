@@ -10,16 +10,6 @@ class Footer extends React.Component {
         <ul className='icons'>
           <li>
             <a
-              href='https://twitter.com/rage_phuocn'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='icon alt fab fa-twitter'
-            >
-              <span className='label'>Twitter</span>
-            </a>
-          </li>
-          <li>
-            <a
               href='https://www.linkedin.com/in/panigo/'
               target='_blank'
               rel='noopener noreferrer'
@@ -30,7 +20,7 @@ class Footer extends React.Component {
           </li>
           <li>
             <a
-              href='https://www.instagram.com/nk.thresh/'
+              href='https://www.instagram.com/suolaric/'
               target='_blank'
               rel='noopener noreferrer'
               className='icon alt fab fa-instagram'
