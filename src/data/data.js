@@ -34,7 +34,7 @@ export const projects = [
     itemTitleColor: '#7af4d4',
     // img: 'https://image.flaticon.com/icons/svg/198/198416.svg',
     // imgWidth: '50%',
-    link: 'https://github.com/rangigo/portfolio',
+    link: 'https://github.com/rangigo/portfolio-v2',
     projectTitle: 'This',
     itemTitle: 'My Portfolio',
     tech: 'Front-End',
