@@ -75,7 +75,7 @@ export const projects = [
     flex: 0.333,
     backgroundColor: '#ccc',
     itemTitleColor: '#ccc',
-    img: 'https://i.imgur.com/BWgG8IH.jpg',
+    img: 'https://pikalong-pic.s3.ap-southeast-1.amazonaws.com/pikalong.jpeg',
     imgWidth: '70%',
     link: 'https://github.com/rangigo/PrincessOfPikalong',
     projectTitle: '',
@@ -136,7 +136,7 @@ export const projects = [
 export const experiences = [
   {
     jobTitle: 'Software Engineer @ Smartly.io',
-    timeStamp: '05.2021 - 12.2024',
+    timeStamp: '05.2021 - 12.2025',
     description: `<p>• Initially a part of the team building preview page for creative ads, later on got
     merged into the team responsible for content sheet and asset UI management.</p>
     <p>• Develop and maintain existing microservices architecture handling content
