@@ -17,7 +17,7 @@ export const projects = [
     flex: 0.333,
     backgroundColor: '#2A303D',
     itemTitleColor: '#76D9FA',
-    img: 'https://github.com/rangigo/fetch-anime/blob/master/src/assets/logo.png?raw=true',
+    img: 'https://pikalong-pic.s3.ap-southeast-1.amazonaws.com/fetchanime.png',
     imgWidth: '50%',
     link: 'https://github.com/rangigo/fetch-anime',
     projectTitle: '',
