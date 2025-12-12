@@ -76,7 +76,7 @@ export const projects = [
     backgroundColor: '#ccc',
     itemTitleColor: '#ccc',
     img: 'https://pikalong-pic.s3.ap-southeast-1.amazonaws.com/pikalong.jpeg',
-    imgWidth: '70%',
+    imgWidth: '50%',
     link: 'https://github.com/rangigo/PrincessOfPikalong',
     projectTitle: '',
     itemTitle: 'Princess Of Pikalong',
